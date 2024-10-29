@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+
+  <!-- Content goes under this line: in the body element -->
+  <body>
+    <!-- Add Header  -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-primary">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            >Portfolio</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link"
+                href="#about-me"
+                >About Me</a
+              >
+              <a
+                class="nav-link"
+                href="#skills"
+                >Skills</a
+              >
+              <a
+                class="nav-link"
+                href="#projects"
+                >Projects</a
+              >
+              <a
+                class="nav-link"
+                href="#contact"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container">
+      <!-- About Me  -->
+
+      <section
+        class="container"
+        id="about-me"
+      >
+        <!-- Row with 2 cols -->
+        <div class="row flex-column-reverse flex-md-row">
+          <!-- 1 col that takes of half the page -->
+
+          <div class="col-6">
+            <div id="temp">
+              <h1>Lewis Benson</h1>
+              <h2>Web Developer</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                cum esse minus natus officia quas. Doloremque dicta quisquam
+                consequatur culpa natus assumenda? Consequatur necessitatibus
+                error id, a porro quasi culpa.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat
+                eius quisquam explicabo molestias iusto esse sunt quia
+                asperiores, excepturi libero! Sit consequatur amet adipisci nemo
+                fugit ab tenetur accusamus voluptatibus.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                omnis provident dicta harum sequi odit nostrum adipisci maiores
+                neque quidem, minus libero iste, vel aut saepe. Earum, nostrum
+                officia. Sint!
+              </p>
+            </div>
+          </div>
+          nav
+          <!-- 1 col that takes of half the page -->
+          <div
+            id="profile-wrapper"
+            class="col-6"
+          >
+            <img
+              class="img-thumbnail"
+              src="portfolio.webp"
+              alt="This is not an AI generated image, this is the real Lewis Benson"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills  -->
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="container">
+          <li>
+            <b>Languages:</b> JavaScript, Java, Go, Python, Sass, Bash, C#
+          </li>
+          <li><b>Frameworks:</b> React, Express, Django, MERN, Nextjs</li>
+          <li><b>Test QA/QC:</b> Jest</li>
+          <!--TODO Add more bullets -->
+        </ul>
+      </section>
+      <!--Projects  -->
+      <h2 class="">Projects</h2>
+      <section
+        class="container text-center"
+        id="projects"
+      >
+        <div class="row">
+          <div class="col">
+            <!-- Card  -->
+            <div
+              class="card"
+              style="width: 18rem"
+            >
+              <img
+                src="card.png"
+                class="card-img-top"
+                alt="bootstrap snippet that shows how to build card element"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Card  -->
+            <div
+              class="card"
+              style="width: 18rem"
+            >
+              <img
+                src="cara.png"
+                class="card-img-top"
+                alt="bootstrap snippet that shows how to build carousel element"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+                  placeat incidunt maiores dolorum eligendi. Doloribus esse
+                  dolorum eaque repudiandae cumque assumenda?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!-- Card  -->
+            <div
+              class="card"
+              style="width: 18rem"
+            >
+              <img
+                src="card.png"
+                class="card-img-top"
+                alt="bootstrap snippet that shows how to build card element"
+              />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--TODO Carousel Section  -->
+      <section id="testimonials">
+        <div
+          id="carouselTestimonials"
+          class="carousel slide"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <!--TODO Add content to this slide -->
+              <img
+              class="d-block w-100"
+                src="image.png"
+                alt="Lewis has an exceptional talent for teaching and simplifying complex concepts. His commitment to student success is evident in the way he tailors each session to individual needs. I've seen firsthand the positive impact he has on his students, making challenging topics accessible and engaging."
+              />
+            </div>
+            <div class="carousel-item">
+              <!--TODO Add content to this slide -->
+              <img
+              class="d-block w-100"
+                src="image-1.png"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <!--TODO Add content to this slide -->
+              <img
+              class="d-block w-100"
+                src="image-2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselTestimonials"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="holder.js/900x500/auto/#777:#555/text:First slide"
+              class="w-100 d-block"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="holder.js/900x500/auto/#666:#444/text:Second slide"
+              class="w-100 d-block"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="holder.js/900x500/auto/#666:#444/text:Third slide"
+              class="w-100 d-block"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+
+      <!--Contact  -->
+      <h2>Contact Me</h2>
+      <section id="contact">
+        <form
+          class="w-50 d-flex flex-column gap-2"
+          action=""
+        >
+          <label class="d-flex flex-column">
+            Email:
+            <input type="text" />
+          </label>
+          <div class="form-floating">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea"
+            ></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+        </form>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
